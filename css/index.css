@@ -1,0 +1,546 @@
+@charset "UTF-8";
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body {
+	width: 100%;
+	height: 600px;
+	background-image: url('../imagens/fundo.jpg');
+	background-repeat: no-repeat;
+}
+/*.teste{width: 100px; height: 100px; position: fixed; top: 50%; left: 50%; margin-top: -50px; margin-left: -50px; background-color: green;}*/
+
+/*--------------------------------------------------------------------------*/
+
+/*--------------------------- HEADER ---------------------------------------*/
+
+/*--------------------------------------------------------------------------*/
+.navbar {
+	border-width: 0px;
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
+	background-color: rgba(0, 0, 0, 0.0);
+	background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop(0%, rgba(0, 0, 0, 0.00)), color-stop(100%, rgba(0, 0, 0, 0.00)));
+	background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+	background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+}
+.top-fist-page {
+	padding: 0;
+	margin: 0;
+	z-index: -1;
+	position: relative;
+}
+.conteiner {
+	margin-top: 15px;
+	margin-left: 2%;
+	margin-right: 2%;
+	height: 531px;
+}
+.conteiner-top {
+	width: 100%;
+	height: 35px;
+}
+.conteiner-top img {
+	max-height: 100%;
+	max-width: 100%;
+	float: left;
+}
+.top-link {
+	font-weight: bolder;
+	font-size: 15px;
+}
+.navbar-default .navbar-nav>li>a{
+	color: rgb(255, 255, 255);
+}
+.navbar-default .navbar-nav>li>a:hover {
+	color: #636a70;
+}
+.conteiner-info {
+	float: left;
+	margin-top: 150px;
+	margin-left: 1%;
+	width: 35%;
+	height: 180px;
+}
+.introduction-click {
+	font-size: 26px;
+	color: rgb(255, 255, 255);
+}
+.introduction-click-text {
+	width: 100%;
+	font-size: 18px;
+	color: rgb(192, 192, 192);
+}
+.img-phone {
+	float: right;
+	margin-right: 1%;
+	margin-top: 46px;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+/*--------------------------------------------------------------------------*/
+
+/*--------------------------- Click na Midia -------------------------------*/
+
+/*--------------------------------------------------------------------------*/
+.news-click {
+	width: 100%;
+	position: absolute;
+	background: rgb(240, 240, 240);
+}
+.conteiner-news-click {
+	margin-left: 2%;
+	margin-right: 2%;
+	height: 55px;
+}
+.conteiner-news-click ul li {
+	margin-left: 1%;
+	margin-top: 10px;
+	display: inline-block;
+}
+.conteiner-news-click ul li:nth-of-type(1) {
+	color: #888888;
+	display: inline-block;
+}
+.news-logo-correios a{
+	position:absolute;
+	width: 160px;
+	height: 33px;
+	margin-top:-25px;
+	background-image: url('../imagens/correios-brand.png');
+	max-height: 100%;
+	max-width: 100%;
+}
+.news-logo-correios a:hover {
+	background-image: url('../imagens/correios-brand-hover.png');
+}
+
+/*--------------------------------------------------------------------------*/
+
+/*--------------------------- Click About -------------------------------*/
+
+/*--------------------------------------------------------------------------*/
+
+.about-click {
+	height: 650px;
+	width: 100%;
+	background-image: url('../imagens/bg-about.png');
+	text-align: center;
+}
+.conteiner-about-click {
+	width: auto;
+	height: auto;
+	margin-left: 25%;
+	margin-right: 25%;
+	position: absolute;
+	margin-top: 15%;
+}
+.first-title {
+	margin-left: 15%;
+	margin-right: 25%;
+}
+.second-title {
+	margin-left: 17%;
+	margin-right: 25%;
+}
+.about-click-text {
+	color: #888888;
+	font-size: 20px;
+}
+.about-click-text a {
+	color: #FFCC00;
+	text-decoration: none;
+}
+.about-click-text a:hover {
+	color: #888888;
+}
+
+/*--------------------------------------------------------------------------*/
+
+/*--------------------------- Como Funciona --------------------------------*/
+
+/*--------------------------------------------------------------------------*/
+
+.how-it-works {
+	width: 100%;
+	height: 500px;
+}
+.background-how-it {
+	position: absolute;
+	width: 100%;
+	height: 340px;
+	z-index: -5;
+}
+#background-first {
+	position: absolute;
+	width: 100%;
+	height: 340px;
+	z-index: -5;
+}
+#background-second {
+	position: absolute;
+	width: 100%;
+	height: 340px;
+	z-index: -6;
+}
+#background-third {
+	position: absolute;
+	width: 100%;
+	height: 340px;
+	z-index: -7;
+}
+.background-tela-iphone {
+	left: 50%;
+	margin-top: 60px;
+	margin-left: -119px;/* A metade de sua largura. */
+	position: absolute;
+	width: 736px;
+	height: 424px;
+}
+.iphone-mockup {
+	left: 50%;
+	margin-top: -87px;
+	margin-left: -175px;/* A metade de sua largura. */
+	position: absolute;
+	width: 350px;
+	height: 547px;
+	background-image: url('../imagens/iPhone Grey.png');
+}
+.text-how-it {
+	height: 180px;
+	margin-top: 75px;
+	margin-left: 13%;
+	margin-right: 13%;
+	font-size: 22px;
+}
+.text-how-it h2 {
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.text-how-it p {
+	color: #747c83;
+}
+#text-first {
+	clear: both;
+	display: none;
+	float: left;
+	width: 364px;
+	height: 180px;
+}
+#text-second {
+	display: none;
+	float: left;
+	width: 364px;
+	height: 180px;
+}
+#text-third {
+	display: none;
+	float: right;
+	width: 364px;
+	height: 180px;
+}
+
+/*--------------------------------------------------------------------------*/
+
+/*---------------------------  Contato  ------------------------------------*/
+
+/*--------------------------------------------------------------------------*/
+.section-contact {
+	position: absolute;
+	width: 100%;
+	height: 580px;
+	background-image: url('../imagens/background-contato.jpg');
+	background-repeat: no-repeat;
+}
+.conteiner-contact {
+	height: 300px;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 200px;
+}
+.conteiner-text {
+	width: 590px;
+	height: 300px;
+	color: #888888;
+	font-size: 20px;
+}
+.conteiner-text h2 {
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.conteiner-text	a {
+	color: #FFCC00;
+	text-decoration: none;
+}
+.conteiner-text	a:hover {
+	color: #888888;
+}
+
+/*--------------------------------------------------------------------------*/
+
+/*---------------------------  Footer  ------------------------------------*/
+
+/*--------------------------------------------------------------------------*/
+
+.footer {
+	position: absolute;
+	margin-top: 580px;
+	height: 98px;
+	width: 100%;
+	background: #222227;
+}
+.conteiner-footer {
+	height: 98px;
+	margin-left: 5%;
+	margin-right: 6%;
+}
+.logo-footer {
+	margin-top: 35px;
+	height: 33px;
+	width: 147px;
+	float: left;
+	background-image: url('../imagens/logo.png');
+}
+.link-footer {
+	display:none;
+	float: left;
+	width: 100px;
+	height: 30px;
+	margin-left: 40%;
+	margin-top: 38px;
+}
+#first-icon {
+	float: left;
+	width: 30px;
+	height: 30px;
+	background-image: url('../imagens/icon/icon-facebook.png');
+}
+#second-icon {
+	float: left;
+	width: 30px;
+	height: 30px;
+	margin-left: 4px;
+	background-image: url('../imagens/icon/icon-linkedin.png');
+}
+#third-icon {
+	float: right;
+	width: 30px;
+	height: 30px;
+	background-image: url('../imagens/icon/icon-instagram.png');
+}
+#first-icon:hover {
+	background-image: url('../imagens/icon/icon-facebook-hover.png');
+}
+#second-icon:hover {
+	background-image: url('../imagens/icon/icon-linkedin-hover.png');
+}
+#third-icon:hover {
+	float: right;
+	width: 30px;
+	height: 30px;
+	background-image: url('../imagens/icon/icon-instagram-hover.png');
+}
+.assinatura {
+	margin-top: 25px;
+	width: 200px;
+	float: right;
+}
+.assinatura h3 {
+	float: left;
+	color: #747c83;
+}
+.assinatura img {
+	margin-top:20px;
+	margin-left: 5%;
+	clear: both;
+}
+
+/*--------------------------------------------------------------------------*/
+
+/*---------------------------  Responsivo  ---------------------------------*/
+
+/*--------------------------------------------------------------------------*/
+@media only screen 
+and (min-width:320px) 
+and (max-width:600px) {
+/*.teste{ background-color: blue;}*/
+
+	/*--------------------------------------------------------------------------*/
+
+	/*--------------------------- HEADER ---------------------------------------*/
+
+	/*--------------------------------------------------------------------------*/
+	.img-phone {
+		display: none;
+	}
+	.conteiner-info {
+		width: 100%;
+	}
+
+	/*--------------------------------------------------------------------------*/
+
+	/*--------------------------- Click na Midia -------------------------------*/
+
+	/*--------------------------------------------------------------------------*/
+	.news-logo-correios {
+		max-height: 100%;
+		max-width: 100%;
+	}
+	.text-news h4{
+		font-size:13px;	
+	}
+	.news-logo-correios a{
+	margin-right:5px;
+	background-image: url('../imagens/correios-brand.png');
+	max-height: 100%;
+	max-width: 100%;
+}
+.news-logo-correios a:hover {
+	background-image: url('../imagens/correios-brand-hover.png');
+}
+
+	/*--------------------------------------------------------------------------*/
+
+	/*--------------------------- Click About -------------------------------*/
+
+	/*--------------------------------------------------------------------------*/
+
+	.about-click {
+		margin-top: 60px;
+	}
+	.conteiner-about-click {
+		width: auto;
+		height: auto;
+		width: 100%;
+		margin-left: 0px;
+		margin-right: 0px;
+		position: absolute;
+		margin-top: 35%;
+	}
+
+	/*--------------------------------------------------------------------------*/
+
+	/*--------------------------- Como Funciona --------------------------------*/
+
+	/*--------------------------------------------------------------------------*/
+	.iphone-mockup {
+		display: none;
+	}
+	#text-first {
+		width: 100%;
+		height: 180px;
+	}
+	#text-second {
+		width: 100%;
+		height: 180px;
+	}
+	#text-third {
+		float: left;
+		width: 100%;
+		height: 180px;
+	}
+	.text-how-it {
+		text-align: center;
+		height: 180px;
+		margin-top: 75px;
+		margin-left: 0px;
+		margin-right: 0px;
+		font-size: 22px;
+	}
+
+	/*--------------------------------------------------------------------------*/
+
+	/*---------------------------  Contato  ------------------------------------*/
+
+	/*--------------------------------------------------------------------------*/
+
+	.conteiner-text {
+		width: 100%
+	}
+
+	/*--------------------------------------------------------------------------*/
+
+	/*---------------------------  Footer  ------------------------------------*/
+
+	/*--------------------------------------------------------------------------*/
+	.link-footer {
+		margin-left: 0px;
+	}
+	.assinatura h3{
+		display:none;
+
+	}
+	.assinatura{
+		width:30px;
+	}
+}
+@media only screen 
+and (min-width:600px) 
+and (max-width:768px) {
+
+	/*.teste{ background-color: yellow;}*/
+	/*--------------------------------------------------------------------------*/
+
+	/*--------------------------- Como Funciona --------------------------------*/
+
+	/*--------------------------------------------------------------------------*/
+	.iphone-mockup {
+	}
+	#text-first {
+		width: 180px;
+		height: 280px;
+		margin-top: -65px;
+		font-size: 20px;
+	}
+	#text-second {
+		width: 180px;
+		height: 280px;
+		margin-top: -35px;
+		font-size: 20px;
+	}
+	#text-third {
+		width: 170px;
+		height: 280px;
+		margin-top: -35px;
+		font-size: 20px;
+	}
+	.text-how-it {
+		height: 180px;
+		margin-top: 75px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	/*--------------------------------------------------------------------------*/
+
+	/*---------------------------  Contato  ------------------------------------*/
+
+	/*--------------------------------------------------------------------------*/
+
+	.conteiner-text {
+		width: 100%
+	}
+
+	/*--------------------------------------------------------------------------*/
+
+	/*---------------------------  Footer  ------------------------------------*/
+
+	/*--------------------------------------------------------------------------*/
+	.link-footer {
+		margin-left: 0px;
+	}
+	.assinatura {
+		width: 200px;
+		margin-top:25px;
+	}
+	.assinatura img{
+		margin-top:23px;
+		margin-left:18px;
+	}
+}
